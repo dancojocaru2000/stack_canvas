@@ -11,7 +11,8 @@ class StackCanvas extends StatefulWidget {
     this.animationDuration = const Duration(milliseconds: 400),
     required this.canvasController,
     this.disposeController = true,
-  });
+    Key? key,
+  }) : super(key: key);
 
   final double width;
   final double height;
